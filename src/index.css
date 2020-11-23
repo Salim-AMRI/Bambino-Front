@@ -1,0 +1,527 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* App */
+
+.App {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.Nav {
+  display: flex;
+  background-color: #5ac3dde8;
+  height: 75px;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  align-items: center;
+}
+
+.Logo {
+  width: 40%;
+  margin-bottom: 1%;
+}
+
+.link a {
+  list-style: none;
+  padding-left: 19px;
+  color: white;
+  text-decoration: none !important;
+  font-size: medium;
+  margin-top: 10%;
+}
+
+.link a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.connection {
+  margin-left: 390%;
+}
+
+.espace {
+  margin-left: 115%;
+}
+
+.espace-admin {
+  margin-left: 180%;
+}
+
+.App-footer {
+  background-color: #1caed3de;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.citation {
+  font-style: italic;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Nav {
+    flex-direction: column;
+    padding-bottom: 4%;
+    padding-top: 0;
+    height: 100px;
+  }
+  .connection {
+    margin: 0;
+  }
+
+  .espace {
+    margin: 0;
+  }
+
+  .espace-admin {
+    margin: 0;
+  }
+
+  .App-footer {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .citation {
+    padding-top: 3%;
+  }
+  .Lo {
+    font-size: xx-large;
+    margin: 0 55% 0 50%;
+  }
+  
+  .cover-img div {
+    font-size: 150% !important;
+    font-weight: bold;
+
+    padding: 5%;
+    background-color: #ffffffb2;
+  }
+  .re-size {
+    margin-bottom: 20% !important;
+  }
+  .btnt {
+    width: 150px !important;
+  }
+  .Sin3 {
+    margin: 5%;
+    background-size: cover;
+  }
+}
+
+h1 {
+  font-size: 300%;
+  text-transform: uppercase;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.carte {
+  border-radius: 10px 10px 10px 10px;
+  border: solid rgb(235, 235, 235);
+  margin: 2%;
+  padding: 1%;
+  text-transform: uppercase;
+  width: 260px;
+}
+
+.carte-space {
+  margin: 10px 0 15px 0;
+}
+
+.colne {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.carte-panier {
+  border-radius: 10px 10px 10px 10px;
+  border: solid rgb(235, 235, 235);
+  margin: 2%;
+  padding: 1%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.carte-panier img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.carte-panier span {
+  margin: 0 30px 0 35px;
+}
+
+.carte-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.carte-produit {
+  border-radius: 10px 10px 10px 10px;
+  border: solid rgb(235, 235, 235);
+  margin: 2%;
+  padding: 1%;
+  text-transform: uppercase;
+  width: 300px;
+  height: 150px;
+}
+
+.carte-produit span {
+  zoom: 300%;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.carte-produit img {
+  width: 30%;
+}
+
+.h-title {
+  margin-top: 3%;
+  text-transform: uppercase;
+}
+
+.h-rez {
+  margin: 3%;
+}
+
+.menu {
+  width: 210px;
+  height: 210px;
+  border-radius: 5%;
+  transition: all 0.8s;
+}
+
+/* .menu:hover {
+  width: 220px;
+} */
+
+.disponible {
+  font-weight: bold;
+  font-size: larger;
+  color: green;
+}
+
+button {
+  font-size: medium;
+  background-color: rgb(0, 195, 255);
+  font-family: fantasy;
+  border: #251a1a5e solid;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 6px 6px 12px #221313;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: rgb(23, 128, 160);
+  color: aliceblue;
+}
+
+.Sin {
+  background-image: url(https://cache.magicmaman.com/data/photo/w1000_c18/4l/istock_000077315953_medium.jpg);
+  background-position: center;
+  padding: 5.5%;
+  background-size: cover;
+}
+
+.Sin2 {
+  background-image: url(https://www.babymam.tn/blog/wp-content/uploads/2019/06/indispensables-bebe.jpg);
+  background-position: center;
+  padding: 5.5%;
+  background-size: cover;
+}
+
+.Sin3 {
+  background-image: url(https://www.je-suis-papa.com/wp-content/uploads/2019/06/top-marques-vetement-enfant.png);
+  background-position: center;
+  padding: 8.3%;
+  background-size: cover;
+}
+
+.Siin {
+  width: 400px;
+  margin: 5% auto;
+  padding: 2%;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Siin img {
+  width: 100%;
+}
+
+.Siin input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+.Siiin {
+  margin: 5%;
+  padding: 2%;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.Siiin-dispo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Siin button {
+  background-color: rgb(0, 195, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+  color: rgb(19, 17, 17);
+  padding: 14px 20px;
+  margin: 4% 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.Siin button:hover {
+  background-color: rgb(18, 101, 126);
+  color: white;
+}
+
+.Siin button.btn {
+  background-color: white;
+  font-size: large;
+  color: rgb(19, 17, 17);
+  margin-bottom: 10%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 0%;
+}
+
+.Siin button.btn:hover,
+.Siin button.btn:focus {
+  background-color: rgb(145, 136, 136);
+  color: hsl(0, 0%, 100%);
+  border: none;
+}
+
+.qte {
+  cursor: pointer;
+}
+
+/* Index */
+
+.vente {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.vente img {
+  max-width: 21rem;
+  max-height: 31rem;
+}
+
+.vente h3 {
+  margin-top: 3%;
+}
+
+.achat {
+  max-width: 21rem;
+}
+
+.cover-img {
+  background-image: url(https://blogue.modechoc.ca/wp-content/uploads/2017/09/Untitled-design-11-1-1200x561.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cover-img div {
+  font-size: 250%;
+  font-weight: bold;
+  padding-top: 4%;
+}
+
+.cover-img div:hover {
+  color: rgb(29, 14, 160);
+}
+
+.vente div img {
+  height: 240px;
+}
+
+.re-size {
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 7%;
+  width: 15%;
+}
+
+.resize {
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 15%;
+}
+
+/* CSS filter */
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.filter div {
+  flex: 1;
+}
+
+.T-T {
+  margin: 4%;
+}
+
+.table {
+  border: rgb(88, 86, 86) solid !important;
+}
+
+/* Modal CSS */
+
+.produit-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+
+.produit-description img {
+  width: 24rem;
+  height: 24rem;
+}
+
+.titre-modal {
+  font-size: x-large;
+  font-weight: bolder;
+  color: blue;
+}
+
+.produit-description-detail {
+  flex: 1 1;
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  z-index: 1000;
+  width: 4rem;
+}
+
+.edit {
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.edit img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.carte-space img {
+  width: 35px;
+  cursor: pointer;
+}
+
+.remove {
+  width: 25px !important;
+  height: 25px !important;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+/* Command form */
+
+.form-commande {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.form-commande input {
+  padding: 0.5rem;
+  margin-left: 40%;
+  margin-right: 40%;
+  border: 0.1rem #c0c0c0 solid;
+}
+
+.bto {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+/* Contact */
+
+.contact p {
+  font-style: italic;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+}
+
+.contact img {
+  justify-content: space-between;
+  width: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
